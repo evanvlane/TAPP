@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_lxAc4EUqEeqMSIQqc6OLhg" name="REQUIREMENTS_TABLE">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_l1D2cEUqEeqMSIQqc6OLhg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_l1WKUEUqEeqMSIQqc6OLhg">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1rMosEUqEeqMSIQqc6OLhg" name="SYNTHESIZER"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Q9y3MEUrEeqMSIQqc6OLhg" name="ANDROID APP"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_olzqUEUrEeqMSIQqc6OLhg" name="IOS APP"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_lx84EEUqEeqMSIQqc6OLhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lx9fIEUqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_l0_lAEUqEeqMSIQqc6OLhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1AMEEUqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_l1AMEUUqEeqMSIQqc6OLhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1AMEkUqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_l1AME0UqEeqMSIQqc6OLhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1AzIEUqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_l1AzIUUqEeqMSIQqc6OLhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1AzIkUqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_l1AzI0UqEeqMSIQqc6OLhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1BaMEUqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_l1BaMUUqEeqMSIQqc6OLhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1BaMkUqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_l1CBQEUqEeqMSIQqc6OLhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1CBQUUqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_l1CBQkUqEeqMSIQqc6OLhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1CBQ0UqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_l1CoUEUqEeqMSIQqc6OLhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1CoUUUqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_1tz30EUqEeqMSIQqc6OLhg" base_Class="_1rMosEUqEeqMSIQqc6OLhg" id="SYS.1" text="THE SYSTEM SHALL IMPLEMENT A SUBTRACTIVE SYNTHESIZER."/>
+  <Requirements:Requirement xmi:id="_Q94WwEUrEeqMSIQqc6OLhg" base_Class="_Q9y3MEUrEeqMSIQqc6OLhg" id="SYS.2" text="THE SYSTEM SHALL IMPLEMENT AN INTERACTIVE SYNTH APPLICATION FOR ANDROID DEVICES."/>
+  <Requirements:Requirement xmi:id="_ol5J4EUrEeqMSIQqc6OLhg" base_Class="_olzqUEUrEeqMSIQqc6OLhg" id="SYS.3" text="THE SYSTEM SHALL IMPLEMENT AN INTERACTIVE SYNTH APPLICATION FOR IOS DEVICES."/>
+</xmi:XMI>
