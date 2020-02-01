@@ -80,6 +80,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
+This project is licensed according to all the terms and conditions listed in the LICENSE.md file located in this directory.
+
 This project is (c) 2020 Evan Lane, all rights reserved.
 
 ## Acknowledgments
