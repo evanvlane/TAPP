@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_31-HQEVjEeqjuaiO32zvig" name="1 Discovery">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_35t-0EVjEeqjuaiO32zvig">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_36Bg0EVjEeqjuaiO32zvig">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_xvifEEVkEeqjuaiO32zvig" name="User Stories"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6Wpe0EVkEeqjuaiO32zvig" name="User Requirements">
+      <packagedElement xmi:type="uml:Class" xmi:id="_FHrYcEVlEeqjuaiO32zvig" name="UN-1 User Needs">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_fYVo0EVlEeqjuaiO32zvig" name="UN-1.1 Synthesizer">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_MPF1IEVnEeqjuaiO32zvig" name="UN-1.1.1 Subtractive Synth"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_aTGbEEVqEeqjuaiO32zvig" name="UN-1.1.2 FM Synth"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_HhsuYEVmEeqjuaiO32zvig" name="UN-1.2 Drum Machine"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_eS4nMEVmEeqjuaiO32zvig" name="UN-1.3 App">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_lQ0-0EVoEeqjuaiO32zvig" name="UN-1.3.1 iOS App">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_EJ7Z8EVpEeqjuaiO32zvig" name="UN-1.3.1.1 iOS Phone Resolutions"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_i8ZooEVpEeqjuaiO32zvig" name="UN-1.3.1.2 iOS Phone Hardware"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_sHJrgEVqEeqjuaiO32zvig" name="UN-1.3.1.3 iOS Tablet Resolutions"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_1hNyMEVqEeqjuaiO32zvig" name="UN-1.3.1.4 iOS Tablet Hardware"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_rl6RkEVoEeqjuaiO32zvig" name="UN-1.3.2 Android App">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_vMjysEVpEeqjuaiO32zvig" name="UN-1.3.2.1 Android Phone Resolutions"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_v-EIIEVpEeqjuaiO32zvig" name="UN-1.3.2.2 Android Phone Hardware"/>
+          </nestedClassifier>
+        </nestedClassifier>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_32_a8EVjEeqjuaiO32zvig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_32_a8UVjEeqjuaiO32zvig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35qUcEVjEeqjuaiO32zvig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35qUcUVjEeqjuaiO32zvig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35q7gEVjEeqjuaiO32zvig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35q7gUVjEeqjuaiO32zvig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35q7gkVjEeqjuaiO32zvig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35q7g0VjEeqjuaiO32zvig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35rikEVjEeqjuaiO32zvig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35rikUVjEeqjuaiO32zvig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35rikkVjEeqjuaiO32zvig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35sJoEVjEeqjuaiO32zvig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35sJoUVjEeqjuaiO32zvig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35sJokVjEeqjuaiO32zvig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35sJo0VjEeqjuaiO32zvig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35swsEVjEeqjuaiO32zvig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35swsUVjEeqjuaiO32zvig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35swskVjEeqjuaiO32zvig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35tXwEVjEeqjuaiO32zvig">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35tXwUVjEeqjuaiO32zvig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_FH7QEEVlEeqjuaiO32zvig" base_Class="_FHrYcEVlEeqjuaiO32zvig" id="UN-1"/>
+  <Requirements:Requirement xmi:id="_fYbvcEVlEeqjuaiO32zvig" base_Class="_fYVo0EVlEeqjuaiO32zvig" id="UN-1.1" text="The system shall implement a synthesizer."/>
+  <Requirements:Requirement xmi:id="_Hh0DIEVmEeqjuaiO32zvig" base_Class="_HhsuYEVmEeqjuaiO32zvig" id="UN-1.2" text="The system should implement a drum machine."/>
+  <Requirements:Requirement xmi:id="_eS84oEVmEeqjuaiO32zvig" base_Class="_eS4nMEVmEeqjuaiO32zvig" id="UN-1.3" text="The system shall implement a mobile application."/>
+  <Requirements:Requirement xmi:id="_MPKGkEVnEeqjuaiO32zvig" base_Class="_MPF1IEVnEeqjuaiO32zvig" id="UN-1.1.1" text="The system shall implment a subtractive synthesizer."/>
+  <Requirements:Requirement xmi:id="_lQ7sgEVoEeqjuaiO32zvig" base_Class="_lQ0-0EVoEeqjuaiO32zvig" id="UN-1.3.1" text="The app shall support iOS."/>
+  <Requirements:Requirement xmi:id="_rl_KEEVoEeqjuaiO32zvig" base_Class="_rl6RkEVoEeqjuaiO32zvig" id="UN-1.3.2" text="The app shall support Android."/>
+  <Requirements:Requirement xmi:id="_EJ_EUEVpEeqjuaiO32zvig" base_Class="_EJ7Z8EVpEeqjuaiO32zvig" id="UN-1.3.1.1" text="The iOS app shall support all currently supported iOS phone resolutions."/>
+  <Requirements:Requirement xmi:id="_i8d6EEVpEeqjuaiO32zvig" base_Class="_i8ZooEVpEeqjuaiO32zvig" id="UN-1.3.1.2" text="The iOS app shall support all currently supported iOS phone hardware."/>
+  <Requirements:Requirement xmi:id="_vMndEEVpEeqjuaiO32zvig" base_Class="_vMjysEVpEeqjuaiO32zvig" id="UN-1.3.2.1" text="The Android app shall support all currently supported flagship Android phone resolutions."/>
+  <Requirements:Requirement xmi:id="_v-HygEVpEeqjuaiO32zvig" base_Class="_v-EIIEVpEeqjuaiO32zvig" id="UN-1.3.2.2" text="The Android app shall support all currently supported flagship Android phone hardware."/>
+  <Requirements:Requirement xmi:id="_aTKFcEVqEeqjuaiO32zvig" base_Class="_aTGbEEVqEeqjuaiO32zvig" id="UN-1.1.2" text="The system should implement an FM synth."/>
+  <Requirements:Requirement xmi:id="_sHNV4EVqEeqjuaiO32zvig" base_Class="_sHJrgEVqEeqjuaiO32zvig" id="UN-1.3.1.3" text="The iOS app should support all currently supported iOS tablet resolutions."/>
+  <Requirements:Requirement xmi:id="_1hSDoEVqEeqjuaiO32zvig" base_Class="_1hNyMEVqEeqjuaiO32zvig" id="UN-1.3.1.4" text="The iOS app should support all currently supported iOS tablet hardware."/>
+</xmi:XMI>

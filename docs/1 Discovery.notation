@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nattable:Table xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:nattablelabelprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattablecontentprovider" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattablecontentprovider http://www.eclipse.org/papyrus/nattable/model#//nattablelabelprovider http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle http://www.eclipse.org/papyrus/nattable/model#//nattablestyle" xmi:id="_BSa-IEVlEeqjuaiO32zvig" name="User Requirements" currentRowAxisProvider="_BSa-JUVlEeqjuaiO32zvig" currentColumnAxisProvider="_BSa-IkVlEeqjuaiO32zvig" tableKindId="org.eclipse.papyrus.sysml14.table.requirementTree">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BScMQEVlEeqjuaiO32zvig" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BScMQUVlEeqjuaiO32zvig" key="version" value="1.3.0"/>
+  </eAnnotations>
+  <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_BSa-IUVlEeqjuaiO32zvig" name="hiddenCategoriesByDepth">
+    <intListValue>0</intListValue>
+    <intListValue>1</intListValue>
+    <intListValue>2</intListValue>
+    <intListValue>3</intListValue>
+    <intListValue>4</intListValue>
+  </styles>
+  <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_PECB8EVnEeqjuaiO32zvig" name="rowHeaderWidth" intValue="361"/>
+  <context xmi:type="uml:Package" href="1%20Discovery.uml#_6Wpe0EVkEeqjuaiO32zvig"/>
+  <owner xmi:type="uml:Package" href="1%20Discovery.uml#_6Wpe0EVkEeqjuaiO32zvig"/>
+  <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+  <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_BSa-IkVlEeqjuaiO32zvig" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_BSa-I0VlEeqjuaiO32zvig" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_Fwg6EEVlEeqjuaiO32zvig" name="axisWidth" intValue="83"/>
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirementtree.stereotype.property.axis.manager"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_BSa-JEVlEeqjuaiO32zvig" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_Hz9_kEVlEeqjuaiO32zvig" name="axisWidth" intValue="708"/>
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirementtree.stereotype.property.axis.manager"/>
+    </axis>
+  </columnAxisProvidersHistory>
+  <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_BSa-JUVlEeqjuaiO32zvig" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_GIXZYEVlEeqjuaiO32zvig" indexStyle="NUMERIC" displayIndex="false">
+    <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_GIZOkEVlEeqjuaiO32zvig" name="rowLabelWidth" intValue="361"/>
+  </localRowHeaderAxisConfiguration>
+  <localColumnHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_EtpngEVoEeqjuaiO32zvig" displayIndex="false">
+    <ownedLabelConfigurations xmi:type="nattablelabelprovider:FeatureLabelProviderConfiguration" xmi:id="_H3DocEVoEeqjuaiO32zvig" displayType="false" displayMultiplicity="false"/>
+    <axisManagerConfigurations xmi:type="nattableaxisconfiguration:AxisManagerConfiguration" xmi:id="_H3EPgEVoEeqjuaiO32zvig" localHeaderLabelConfiguration="_H3DocEVoEeqjuaiO32zvig">
+      <axisManager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirementtree.feature.axis.manager"/>
+    </axisManagerConfigurations>
+    <axisManagerConfigurations xmi:type="nattableaxisconfiguration:AxisManagerConfiguration" xmi:id="_H3EPgUVoEeqjuaiO32zvig" localHeaderLabelConfiguration="_H3DocEVoEeqjuaiO32zvig">
+      <axisManager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirementtree.stereotype.property.axis.manager"/>
+    </axisManagerConfigurations>
+  </localColumnHeaderAxisConfiguration>
+</nattable:Table>
