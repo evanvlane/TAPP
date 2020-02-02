@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
   <uml:Model xmi:id="_31-HQEVjEeqjuaiO32zvig" name="1 Discovery">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_35t-0EVjEeqjuaiO32zvig">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -7,8 +7,8 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_36Bg0EVjEeqjuaiO32zvig">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_xvifEEVkEeqjuaiO32zvig" name="User Stories"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_6Wpe0EVkEeqjuaiO32zvig" name="User Requirements">
+    <packagedElement xmi:type="uml:Package" xmi:id="_xvifEEVkEeqjuaiO32zvig" name="1 User Stories"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6Wpe0EVkEeqjuaiO32zvig" name="2 User Requirements">
       <packagedElement xmi:type="uml:Class" xmi:id="_FHrYcEVlEeqjuaiO32zvig" name="UN-1 User Needs">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_fYVo0EVlEeqjuaiO32zvig" name="UN-1.1 Synthesizer">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_MPF1IEVnEeqjuaiO32zvig" name="UN-1.1.1 Subtractive Synth"/>
@@ -27,6 +27,88 @@
             <nestedClassifier xmi:type="uml:Class" xmi:id="_v-EIIEVpEeqjuaiO32zvig" name="UN-1.3.2.2 Android Phone Hardware"/>
           </nestedClassifier>
         </nestedClassifier>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JuZnwEVsEeqjuaiO32zvig" name="3 System Behavior">
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ee-OIEVvEeqjuaiO32zvig" memberEnd="_Ee-1MkVvEeqjuaiO32zvig _Ee-1M0VvEeqjuaiO32zvig">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ee-1MEVvEeqjuaiO32zvig" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ee-1MUVvEeqjuaiO32zvig" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Ee-1MkVvEeqjuaiO32zvig" name="creator" type="_z4O60EVtEeqjuaiO32zvig" association="_Ee-OIEVvEeqjuaiO32zvig"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Ee-1M0VvEeqjuaiO32zvig" name="make a song." type="_2tnXEEVuEeqjuaiO32zvig" association="_Ee-OIEVvEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_yRZN8EVvEeqjuaiO32zvig" memberEnd="_yRZ1AkVvEeqjuaiO32zvig _yRacEEVvEeqjuaiO32zvig">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yRZ1AEVvEeqjuaiO32zvig" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yRZ1AUVvEeqjuaiO32zvig" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yRZ1AkVvEeqjuaiO32zvig" name="creator" type="_z4O60EVtEeqjuaiO32zvig" association="_yRZN8EVvEeqjuaiO32zvig"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yRacEEVvEeqjuaiO32zvig" name="replay a song." type="_J7VJIEVvEeqjuaiO32zvig" association="_yRZN8EVvEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2suw0EVvEeqjuaiO32zvig" memberEnd="_2svX4kVvEeqjuaiO32zvig _2svX40VvEeqjuaiO32zvig">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2svX4EVvEeqjuaiO32zvig" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2svX4UVvEeqjuaiO32zvig" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2svX4kVvEeqjuaiO32zvig" name="creator" type="_z4O60EVtEeqjuaiO32zvig" association="_2suw0EVvEeqjuaiO32zvig"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2svX40VvEeqjuaiO32zvig" name="edit a saved song." type="_MUYrMEVvEeqjuaiO32zvig" association="_2suw0EVvEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_5ER3AEVvEeqjuaiO32zvig" memberEnd="_5ESeEkVvEeqjuaiO32zvig _5ESeE0VvEeqjuaiO32zvig">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5ESeEEVvEeqjuaiO32zvig" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5ESeEUVvEeqjuaiO32zvig" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5ESeEkVvEeqjuaiO32zvig" name="creator" type="_z4O60EVtEeqjuaiO32zvig" association="_5ER3AEVvEeqjuaiO32zvig"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5ESeE0VvEeqjuaiO32zvig" name="share a song." type="_SjFCEEVvEeqjuaiO32zvig" association="_5ER3AEVvEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_2tnXEEVuEeqjuaiO32zvig" name="Make a song." classifierBehavior="_cnB90EVwEeqjuaiO32zvig" subject="_KYAI8EVtEeqjuaiO32zvig">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_cnB90EVwEeqjuaiO32zvig" name="Activity1" node="_nn4msEVxEeqjuaiO32zvig _abBHUEVyEeqjuaiO32zvig _0cSQ0EVyEeqjuaiO32zvig _45SAkEVyEeqjuaiO32zvig _9FPDoEVyEeqjuaiO32zvig _syG98EVzEeqjuaiO32zvig" group="_8k96EEVwEeqjuaiO32zvig _RjHvAEVxEeqjuaiO32zvig _pRKuIEVwEeqjuaiO32zvig">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_BCqtEEV0EeqjuaiO32zvig" target="_syG98EVzEeqjuaiO32zvig" source="_nn4msEVxEeqjuaiO32zvig"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_UcuSAEV0EeqjuaiO32zvig" target="_9FPDoEVyEeqjuaiO32zvig" source="_45SAkEVyEeqjuaiO32zvig"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_pRKuIEVwEeqjuaiO32zvig" name="Creator" node="_nn4msEVxEeqjuaiO32zvig" represents="_z4O60EVtEeqjuaiO32zvig"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_8k96EEVwEeqjuaiO32zvig" name="Synthesizer" node="_9FPDoEVyEeqjuaiO32zvig" represents="_kkaLcEVtEeqjuaiO32zvig"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_RjHvAEVxEeqjuaiO32zvig" name="Audio Output" represents="_3y1vMEVtEeqjuaiO32zvig"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_nn4msEVxEeqjuaiO32zvig" name="Turn on System" outgoing="_BCqtEEV0EeqjuaiO32zvig" inPartition="_pRKuIEVwEeqjuaiO32zvig"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_abBHUEVyEeqjuaiO32zvig" name="Turn off synth"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_0cSQ0EVyEeqjuaiO32zvig" name="Check synth"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_45SAkEVyEeqjuaiO32zvig" name="Stop synth" outgoing="_UcuSAEV0EeqjuaiO32zvig"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_9FPDoEVyEeqjuaiO32zvig" name="ActivityFinalNode9" incoming="_UcuSAEV0EeqjuaiO32zvig" inPartition="_8k96EEVwEeqjuaiO32zvig"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_syG98EVzEeqjuaiO32zvig" name="Turn on synth" incoming="_BCqtEEV0EeqjuaiO32zvig"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_J7VJIEVvEeqjuaiO32zvig" name="Replay a song." subject="_KYAI8EVtEeqjuaiO32zvig"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_MUYrMEVvEeqjuaiO32zvig" name="Edit a saved song." subject="_KYAI8EVtEeqjuaiO32zvig"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_SjFCEEVvEeqjuaiO32zvig" name="Share a song." subject="_KYAI8EVtEeqjuaiO32zvig"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KlBtwEVsEeqjuaiO32zvig" name="4 System Context">
+      <packagedElement xmi:type="uml:Class" xmi:id="_KYAI8EVtEeqjuaiO32zvig" name="System In Use" useCase="_2tnXEEVuEeqjuaiO32zvig _J7VJIEVvEeqjuaiO32zvig _MUYrMEVvEeqjuaiO32zvig _SjFCEEVvEeqjuaiO32zvig">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_gdpKYEVtEeqjuaiO32zvig" name="Property1" type="_kkaLcEVtEeqjuaiO32zvig" aggregation="composite" association="_kkhgMEVtEeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_tiIUYEVtEeqjuaiO32zvig" name="Property2" type="_upp9IEVtEeqjuaiO32zvig" aggregation="composite" association="_up0VMEVtEeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xrjn4EVtEeqjuaiO32zvig" name="Property3" type="_z4O60EVtEeqjuaiO32zvig" aggregation="composite" association="_z4VogEVtEeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_2ih94EVtEeqjuaiO32zvig" name="Property4" type="_3y1vMEVtEeqjuaiO32zvig" aggregation="composite" association="_3y9rAEVtEeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_EF0jwEVuEeqjuaiO32zvig" name="Property5" type="_EzsWYEVuEeqjuaiO32zvig" aggregation="composite" association="_Ezwn0EVuEeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_TY-kwEVuEeqjuaiO32zvig" name="Property6" type="_T_0iUEVuEeqjuaiO32zvig" aggregation="composite" association="_T_6o8EVuEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_kkaLcEVtEeqjuaiO32zvig" name="Synthesizer"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_kkhgMEVtEeqjuaiO32zvig" memberEnd="_gdpKYEVtEeqjuaiO32zvig _kkjVYEVtEeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_kkjVYEVtEeqjuaiO32zvig" type="_KYAI8EVtEeqjuaiO32zvig" association="_kkhgMEVtEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_upp9IEVtEeqjuaiO32zvig" name="Mobile Application"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_up0VMEVtEeqjuaiO32zvig" memberEnd="_tiIUYEVtEeqjuaiO32zvig _up7p8EVtEeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_up7p8EVtEeqjuaiO32zvig" type="_KYAI8EVtEeqjuaiO32zvig" association="_up0VMEVtEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z4O60EVtEeqjuaiO32zvig" name="Creator"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_z4VogEVtEeqjuaiO32zvig" memberEnd="_xrjn4EVtEeqjuaiO32zvig _z4Z58EVtEeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_z4Z58EVtEeqjuaiO32zvig" type="_KYAI8EVtEeqjuaiO32zvig" association="_z4VogEVtEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3y1vMEVtEeqjuaiO32zvig" name="Audio Output"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_3y9rAEVtEeqjuaiO32zvig" memberEnd="_2ih94EVtEeqjuaiO32zvig _3zAHQEVtEeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3zAHQEVtEeqjuaiO32zvig" type="_KYAI8EVtEeqjuaiO32zvig" association="_3y9rAEVtEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_EzsWYEVuEeqjuaiO32zvig" name="Drum Machine"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ezwn0EVuEeqjuaiO32zvig" memberEnd="_EF0jwEVuEeqjuaiO32zvig _EzzEEEVuEeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_EzzEEEVuEeqjuaiO32zvig" type="_KYAI8EVtEeqjuaiO32zvig" association="_Ezwn0EVuEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_T_0iUEVuEeqjuaiO32zvig" name="Listener"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_T_6o8EVuEeqjuaiO32zvig" memberEnd="_TY-kwEVuEeqjuaiO32zvig _T_9sQEVuEeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_T_9sQEVuEeqjuaiO32zvig" type="_KYAI8EVtEeqjuaiO32zvig" association="_T_6o8EVuEeqjuaiO32zvig"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_32_a8EVjEeqjuaiO32zvig">
@@ -104,4 +186,14 @@
   <Requirements:Requirement xmi:id="_aTKFcEVqEeqjuaiO32zvig" base_Class="_aTGbEEVqEeqjuaiO32zvig" id="UN-1.1.2" text="The system should implement an FM synth."/>
   <Requirements:Requirement xmi:id="_sHNV4EVqEeqjuaiO32zvig" base_Class="_sHJrgEVqEeqjuaiO32zvig" id="UN-1.3.1.3" text="The iOS app should support all currently supported iOS tablet resolutions."/>
   <Requirements:Requirement xmi:id="_1hSDoEVqEeqjuaiO32zvig" base_Class="_1hNyMEVqEeqjuaiO32zvig" id="UN-1.3.1.4" text="The iOS app should support all currently supported iOS tablet hardware."/>
+  <Blocks:Block xmi:id="_KaAUEEVtEeqjuaiO32zvig" base_Class="_KYAI8EVtEeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_kkfrAEVtEeqjuaiO32zvig" base_Class="_kkaLcEVtEeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_upwDwEVtEeqjuaiO32zvig" base_Class="_upp9IEVtEeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_z4TzUEVtEeqjuaiO32zvig" base_Class="_z4O60EVtEeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_3y7OwEVtEeqjuaiO32zvig" base_Class="_3y1vMEVtEeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_EzvZsEVuEeqjuaiO32zvig" base_Class="_EzsWYEVuEeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_T_5a0EVuEeqjuaiO32zvig" base_Class="_T_0iUEVuEeqjuaiO32zvig"/>
+  <Allocations:AllocateActivityPartition xmi:id="_pRPmoEVwEeqjuaiO32zvig" base_ActivityPartition="_pRKuIEVwEeqjuaiO32zvig"/>
+  <Allocations:AllocateActivityPartition xmi:id="_8lFO0EVwEeqjuaiO32zvig" base_ActivityPartition="_8k96EEVwEeqjuaiO32zvig"/>
+  <Allocations:AllocateActivityPartition xmi:id="_RjMAcEVxEeqjuaiO32zvig" base_ActivityPartition="_RjHvAEVxEeqjuaiO32zvig"/>
 </xmi:XMI>
