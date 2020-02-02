@@ -10,6 +10,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_1rMosEUqEeqMSIQqc6OLhg" name="SYNTHESIZER"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_Q9y3MEUrEeqMSIQqc6OLhg" name="ANDROID APP"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_olzqUEUrEeqMSIQqc6OLhg" name="IOS APP"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Rltx0EU2EeqMSIQqc6OLhg" name="SUBTRACTIVE SYNTH"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_lx84EEUqEeqMSIQqc6OLhg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lx9fIEUqEeqMSIQqc6OLhg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -74,4 +75,5 @@
   <Requirements:Requirement xmi:id="_1tz30EUqEeqMSIQqc6OLhg" base_Class="_1rMosEUqEeqMSIQqc6OLhg" id="SYS.1" text="THE SYSTEM SHALL IMPLEMENT A SUBTRACTIVE SYNTHESIZER."/>
   <Requirements:Requirement xmi:id="_Q94WwEUrEeqMSIQqc6OLhg" base_Class="_Q9y3MEUrEeqMSIQqc6OLhg" id="SYS.2" text="THE SYSTEM SHALL IMPLEMENT AN INTERACTIVE SYNTH APPLICATION FOR ANDROID DEVICES."/>
   <Requirements:Requirement xmi:id="_ol5J4EUrEeqMSIQqc6OLhg" base_Class="_olzqUEUrEeqMSIQqc6OLhg" id="SYS.3" text="THE SYSTEM SHALL IMPLEMENT AN INTERACTIVE SYNTH APPLICATION FOR IOS DEVICES."/>
+  <Requirements:Requirement xmi:id="_Rl1GkEU2EeqMSIQqc6OLhg" base_Class="_Rltx0EU2EeqMSIQqc6OLhg" id="SYS.1.1" text="THE SYSTEM SHALL IMPLEMENT A SUBTRACTIVE SYNTHESIZER."/>
 </xmi:XMI>

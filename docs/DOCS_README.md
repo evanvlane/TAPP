@@ -5,5 +5,5 @@ Use `Eclipse`, `Papyrus`, and `SysML 1.4` for Papyrus in order to view and contr
 ## Architecture Documentation
 *All system architecture documentation adheres to SysML 1.4 standard.*
 
-## Requirements documentation
+## Requirements Documentation
 *All system architecture documentation adheres to SysML 1.4 standard.*
