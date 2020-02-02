@@ -86,7 +86,59 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_EF0jwEVuEeqjuaiO32zvig" name="Property5" type="_EzsWYEVuEeqjuaiO32zvig" aggregation="composite" association="_Ezwn0EVuEeqjuaiO32zvig"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_TY-kwEVuEeqjuaiO32zvig" name="Property6" type="_T_0iUEVuEeqjuaiO32zvig" aggregation="composite" association="_T_6o8EVuEeqjuaiO32zvig"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_kkaLcEVtEeqjuaiO32zvig" name="Synthesizer"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_kkaLcEVtEeqjuaiO32zvig" name="Synthesizer">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_pUShUEV1EeqjuaiO32zvig" name="Property1" type="_qhLLMEV1EeqjuaiO32zvig" aggregation="composite" association="_qhQqwEV1EeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_u3tGkEV1EeqjuaiO32zvig" name="Property2" type="_xAKn4EV1EeqjuaiO32zvig" aggregation="composite" association="_xAUY4EV1EeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1VqogEV1EeqjuaiO32zvig" name="Property3" type="_3RpNAEV1EeqjuaiO32zvig" aggregation="composite" association="_3R0zMEV1EeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_48mS8EV1EeqjuaiO32zvig" name="Property4" type="_59ERcEV1EeqjuaiO32zvig" aggregation="composite" association="_59OCcEV1EeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3RpNAEV1EeqjuaiO32zvig" name="Voice">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_FVQ4wEV2EeqjuaiO32zvig" name="Property1" type="_GRR1EEV2EeqjuaiO32zvig" aggregation="composite" association="_GRbmEEV2EeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_IKfZcEV2EeqjuaiO32zvig" name="Property2" visibility="public" type="_IzqSQEV2EeqjuaiO32zvig" aggregation="composite" association="_IzujsEV2EeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_KQCJoEV2EeqjuaiO32zvig" name="Property3" type="_LV7asEV2EeqjuaiO32zvig" aggregation="composite" association="_LWHA4EV2EeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_XfX4wEV2EeqjuaiO32zvig" name="Property4" type="_cz9-4EV2EeqjuaiO32zvig" aggregation="composite" association="_c0IW8EV2EeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fPNSQEV2EeqjuaiO32zvig" name="Property5" type="_gKt4QEV2EeqjuaiO32zvig" aggregation="composite" association="_gK3pQEV2EeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_oXV7cEV2EeqjuaiO32zvig" name="Property6" type="_IzqSQEV2EeqjuaiO32zvig" aggregation="composite" association="_rQeEsEV2EeqjuaiO32zvig"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_K3umUEV3EeqjuaiO32zvig" name="Port7" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_3XVTYEV3EeqjuaiO32zvig" name="Port8" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_A1IqkEV4EeqjuaiO32zvig" name="Port9" aggregation="composite"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_Kc9gcEV4EeqjuaiO32zvig" name="Connector10">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_KdDnEEV4EeqjuaiO32zvig" role="_K3umUEV3EeqjuaiO32zvig"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_KdEOIEV4EeqjuaiO32zvig" role="_FVQ4wEV2EeqjuaiO32zvig"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_vKsMoEV4EeqjuaiO32zvig" name="Connector11">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_vKtawEV4EeqjuaiO32zvig" role="_3XVTYEV3EeqjuaiO32zvig"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_vKuB0EV4EeqjuaiO32zvig" role="_KQCJoEV2EeqjuaiO32zvig"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_v1DYQEV4EeqjuaiO32zvig" name="Connector12">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_v1D_UEV4EeqjuaiO32zvig" role="_3XVTYEV3EeqjuaiO32zvig"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_v1EmYEV4EeqjuaiO32zvig" role="_fPNSQEV2EeqjuaiO32zvig"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_6yLNIEV4EeqjuaiO32zvig" name="Connector13">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_6yL0MEV4EeqjuaiO32zvig" role="_IKfZcEV2EeqjuaiO32zvig"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_6yMbQEV4EeqjuaiO32zvig" role="_FVQ4wEV2EeqjuaiO32zvig"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_7hJzAEV4EeqjuaiO32zvig" name="Connector14">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_7hKaEEV4EeqjuaiO32zvig" role="_fPNSQEV2EeqjuaiO32zvig"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_7hLBIEV4EeqjuaiO32zvig" role="_XfX4wEV2EeqjuaiO32zvig"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_8vMTcEV4EeqjuaiO32zvig" name="Connector15">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_8vNhkEV4EeqjuaiO32zvig" role="_FVQ4wEV2EeqjuaiO32zvig"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_8vNhkUV4EeqjuaiO32zvig" role="_KQCJoEV2EeqjuaiO32zvig"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_9frVMEV4EeqjuaiO32zvig" name="Connector16">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_9fsjUEV4EeqjuaiO32zvig" role="_KQCJoEV2EeqjuaiO32zvig"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_9ftKYEV4EeqjuaiO32zvig" role="_XfX4wEV2EeqjuaiO32zvig"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_MYqisEV5EeqjuaiO32zvig" name="Connector17">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_MYrw0EV5EeqjuaiO32zvig" role="_XfX4wEV2EeqjuaiO32zvig"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_MYrw0UV5EeqjuaiO32zvig" role="_oXV7cEV2EeqjuaiO32zvig"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_Nz38cEV5EeqjuaiO32zvig" name="Connector18">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Nz4jgEV5EeqjuaiO32zvig" role="_oXV7cEV2EeqjuaiO32zvig"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Nz5KkEV5EeqjuaiO32zvig" role="_A1IqkEV4EeqjuaiO32zvig"/>
+        </ownedConnector>
+      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_kkhgMEVtEeqjuaiO32zvig" memberEnd="_gdpKYEVtEeqjuaiO32zvig _kkjVYEVtEeqjuaiO32zvig">
         <ownedEnd xmi:type="uml:Property" xmi:id="_kkjVYEVtEeqjuaiO32zvig" type="_KYAI8EVtEeqjuaiO32zvig" association="_kkhgMEVtEeqjuaiO32zvig"/>
       </packagedElement>
@@ -109,6 +161,44 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_T_0iUEVuEeqjuaiO32zvig" name="Listener"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_T_6o8EVuEeqjuaiO32zvig" memberEnd="_TY-kwEVuEeqjuaiO32zvig _T_9sQEVuEeqjuaiO32zvig">
         <ownedEnd xmi:type="uml:Property" xmi:id="_T_9sQEVuEeqjuaiO32zvig" type="_KYAI8EVtEeqjuaiO32zvig" association="_T_6o8EVuEeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qhLLMEV1EeqjuaiO32zvig" name="MIDI Module"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_qhQqwEV1EeqjuaiO32zvig" memberEnd="_pUShUEV1EeqjuaiO32zvig _qhUVIEV1EeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_qhUVIEV1EeqjuaiO32zvig" type="_kkaLcEVtEeqjuaiO32zvig" association="_qhQqwEV1EeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xAKn4EV1EeqjuaiO32zvig" name="System Power"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_xAUY4EV1EeqjuaiO32zvig" memberEnd="_u3tGkEV1EeqjuaiO32zvig _xAW1IEV1EeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xAW1IEV1EeqjuaiO32zvig" type="_kkaLcEVtEeqjuaiO32zvig" association="_xAUY4EV1EeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_3R0zMEV1EeqjuaiO32zvig" memberEnd="_1VqogEV1EeqjuaiO32zvig _3R3PcEV1EeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3R3PcEV1EeqjuaiO32zvig" type="_kkaLcEVtEeqjuaiO32zvig" association="_3R0zMEV1EeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_59ERcEV1EeqjuaiO32zvig" name="DAC Module"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_59OCcEV1EeqjuaiO32zvig" memberEnd="_48mS8EV1EeqjuaiO32zvig _59QesEV1EeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_59QesEV1EeqjuaiO32zvig" type="_kkaLcEVtEeqjuaiO32zvig" association="_59OCcEV1EeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_GRR1EEV2EeqjuaiO32zvig" name="Oscillator"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_GRbmEEV2EeqjuaiO32zvig" memberEnd="_FVQ4wEV2EeqjuaiO32zvig _GReCUEV2EeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_GReCUEV2EeqjuaiO32zvig" type="_3RpNAEV1EeqjuaiO32zvig" association="_GRbmEEV2EeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IzqSQEV2EeqjuaiO32zvig" name="LFO"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IzujsEV2EeqjuaiO32zvig" memberEnd="_IKfZcEV2EeqjuaiO32zvig _IzxnAEV2EeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_IzxnAEV2EeqjuaiO32zvig" type="_3RpNAEV1EeqjuaiO32zvig" association="_IzujsEV2EeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_LV7asEV2EeqjuaiO32zvig" name="Mixer"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_LWHA4EV2EeqjuaiO32zvig" memberEnd="_KQCJoEV2EeqjuaiO32zvig _LWKEMEV2EeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_LWKEMEV2EeqjuaiO32zvig" type="_3RpNAEV1EeqjuaiO32zvig" association="_LWHA4EV2EeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cz9-4EV2EeqjuaiO32zvig" name="Res &amp; Freq Filter"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c0IW8EV2EeqjuaiO32zvig" memberEnd="_XfX4wEV2EeqjuaiO32zvig _c0KzMEV2EeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_c0KzMEV2EeqjuaiO32zvig" type="_3RpNAEV1EeqjuaiO32zvig" association="_c0IW8EV2EeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gKt4QEV2EeqjuaiO32zvig" name="ADSR Filter"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gK3pQEV2EeqjuaiO32zvig" memberEnd="_fPNSQEV2EeqjuaiO32zvig _gK6FgEV2EeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_gK6FgEV2EeqjuaiO32zvig" type="_3RpNAEV1EeqjuaiO32zvig" association="_gK3pQEV2EeqjuaiO32zvig"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_rQeEsEV2EeqjuaiO32zvig" memberEnd="_oXV7cEV2EeqjuaiO32zvig _rQhvEEV2EeqjuaiO32zvig">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_rQhvEEV2EeqjuaiO32zvig" type="_3RpNAEV1EeqjuaiO32zvig" association="_rQeEsEV2EeqjuaiO32zvig"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_32_a8EVjEeqjuaiO32zvig">
@@ -196,4 +286,13 @@
   <Allocations:AllocateActivityPartition xmi:id="_pRPmoEVwEeqjuaiO32zvig" base_ActivityPartition="_pRKuIEVwEeqjuaiO32zvig"/>
   <Allocations:AllocateActivityPartition xmi:id="_8lFO0EVwEeqjuaiO32zvig" base_ActivityPartition="_8k96EEVwEeqjuaiO32zvig"/>
   <Allocations:AllocateActivityPartition xmi:id="_RjMAcEVxEeqjuaiO32zvig" base_ActivityPartition="_RjHvAEVxEeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_qhPcoEV1EeqjuaiO32zvig" base_Class="_qhLLMEV1EeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_xANrMEV1EeqjuaiO32zvig" base_Class="_xAKn4EV1EeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_3RuskEV1EeqjuaiO32zvig" base_Class="_3RpNAEV1EeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_59H70EV1EeqjuaiO32zvig" base_Class="_59ERcEV1EeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_GRWGgEV2EeqjuaiO32zvig" base_Class="_GRR1EEV2EeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_IztVkEV2EeqjuaiO32zvig" base_Class="_IzqSQEV2EeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_LV_sIEV2EeqjuaiO32zvig" base_Class="_LV7asEV2EeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_c0BCMEV2EeqjuaiO32zvig" base_Class="_cz9-4EV2EeqjuaiO32zvig"/>
+  <Blocks:Block xmi:id="_gKxioEV2EeqjuaiO32zvig" base_Class="_gKt4QEV2EeqjuaiO32zvig"/>
 </xmi:XMI>
