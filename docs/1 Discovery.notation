@@ -12,6 +12,7 @@
       <intListValue>4</intListValue>
     </styles>
     <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_PECB8EVnEeqjuaiO32zvig" name="rowHeaderWidth" intValue="361"/>
+    <styles xmi:type="nattablestyle:TableDisplayStyle" xmi:id="_fAGtAEV7EeqjuaiO32zvig" displayStyle="HIERARCHIC_SINGLE_TREE_COLUMN"/>
     <context xmi:type="uml:Package" href="1%20Discovery.uml#_6Wpe0EVkEeqjuaiO32zvig"/>
     <owner xmi:type="uml:Package" href="1%20Discovery.uml#_6Wpe0EVkEeqjuaiO32zvig"/>
     <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
@@ -956,13 +957,13 @@
       <element xmi:type="uml:Class" href="1%20Discovery.uml#_3RpNAEV1EeqjuaiO32zvig"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AcGxcUV2EeqjuaiO32zvig" x="40" y="40" width="701" height="261"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_AebssEV2EeqjuaiO32zvig" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_AebssUV2EeqjuaiO32zvig"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Aebss0V2EeqjuaiO32zvig" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_Pa7u8EV7EeqjuaiO32zvig" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Pa7u8UV7EeqjuaiO32zvig"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Pa7u80V7EeqjuaiO32zvig" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="1%20Discovery.uml#_3RpNAEV1EeqjuaiO32zvig"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AebsskV2EeqjuaiO32zvig" x="240" y="40"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pa7u8kV7EeqjuaiO32zvig" x="240" y="40"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_AcGKYUV2EeqjuaiO32zvig" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_AcGKYkV2EeqjuaiO32zvig"/>
@@ -970,16 +971,6 @@
       <owner xmi:type="uml:Class" href="1%20Discovery.uml#_3RpNAEV1EeqjuaiO32zvig"/>
     </styles>
     <element xmi:type="uml:Class" href="1%20Discovery.uml#_3RpNAEV1EeqjuaiO32zvig"/>
-    <edges xmi:type="notation:Connector" xmi:id="_AebstEV2EeqjuaiO32zvig" type="StereotypeCommentLink" source="_AcGxcEV2EeqjuaiO32zvig" target="_AebssEV2EeqjuaiO32zvig">
-      <styles xmi:type="notation:FontStyle" xmi:id="_AebstUV2EeqjuaiO32zvig"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_AebsuUV2EeqjuaiO32zvig" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="1%20Discovery.uml#_3RpNAEV1EeqjuaiO32zvig"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AebstkV2EeqjuaiO32zvig" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Aebst0V2EeqjuaiO32zvig"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AebsuEV2EeqjuaiO32zvig"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_KdS3oEV4EeqjuaiO32zvig" type="Connector_Edge" source="_K3-d8EV3EeqjuaiO32zvig" target="_GRkwAEV2EeqjuaiO32zvig" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_KdTesEV4EeqjuaiO32zvig" type="Connector_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_RviWMEV4EeqjuaiO32zvig" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -1161,6 +1152,16 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N0F-4kV5EeqjuaiO32zvig" points="[706, 240, -643984, -643984]$[731, 96, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N0njUEV5EeqjuaiO32zvig" id="(1.0,0.5)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N0njUUV5EeqjuaiO32zvig" id="(0.0,0.35)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Pa7u9EV7EeqjuaiO32zvig" type="StereotypeCommentLink" source="_AcGxcEV2EeqjuaiO32zvig" target="_Pa7u8EV7EeqjuaiO32zvig">
+      <styles xmi:type="notation:FontStyle" xmi:id="_Pa7u9UV7EeqjuaiO32zvig"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Pa7u-UV7EeqjuaiO32zvig" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="1%20Discovery.uml#_3RpNAEV1EeqjuaiO32zvig"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Pa7u9kV7EeqjuaiO32zvig" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Pa7u90V7EeqjuaiO32zvig"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Pa7u-EV7EeqjuaiO32zvig"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

@@ -27,6 +27,7 @@
             <nestedClassifier xmi:type="uml:Class" xmi:id="_v-EIIEVpEeqjuaiO32zvig" name="UN-1.3.2.2 Android Phone Hardware"/>
           </nestedClassifier>
         </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_SR8YUEV7EeqjuaiO32zvig" name="UN-1.4 Audio Out"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_JuZnwEVsEeqjuaiO32zvig" name="3 System Behavior">
@@ -265,7 +266,7 @@
   <Requirements:Requirement xmi:id="_FH7QEEVlEeqjuaiO32zvig" base_Class="_FHrYcEVlEeqjuaiO32zvig" id="UN-1"/>
   <Requirements:Requirement xmi:id="_fYbvcEVlEeqjuaiO32zvig" base_Class="_fYVo0EVlEeqjuaiO32zvig" id="UN-1.1" text="The system shall implement a synthesizer."/>
   <Requirements:Requirement xmi:id="_Hh0DIEVmEeqjuaiO32zvig" base_Class="_HhsuYEVmEeqjuaiO32zvig" id="UN-1.2" text="The system should implement a drum machine."/>
-  <Requirements:Requirement xmi:id="_eS84oEVmEeqjuaiO32zvig" base_Class="_eS4nMEVmEeqjuaiO32zvig" id="UN-1.3" text="The system shall implement a mobile application."/>
+  <Requirements:Requirement xmi:id="_eS84oEVmEeqjuaiO32zvig" base_Class="_eS4nMEVmEeqjuaiO32zvig" id="UN-1.3" text="The system shall implement a companion mobile application."/>
   <Requirements:Requirement xmi:id="_MPKGkEVnEeqjuaiO32zvig" base_Class="_MPF1IEVnEeqjuaiO32zvig" id="UN-1.1.1" text="The system shall implment a subtractive synthesizer."/>
   <Requirements:Requirement xmi:id="_lQ7sgEVoEeqjuaiO32zvig" base_Class="_lQ0-0EVoEeqjuaiO32zvig" id="UN-1.3.1" text="The app shall support iOS."/>
   <Requirements:Requirement xmi:id="_rl_KEEVoEeqjuaiO32zvig" base_Class="_rl6RkEVoEeqjuaiO32zvig" id="UN-1.3.2" text="The app shall support Android."/>
@@ -295,4 +296,5 @@
   <Blocks:Block xmi:id="_LV_sIEV2EeqjuaiO32zvig" base_Class="_LV7asEV2EeqjuaiO32zvig"/>
   <Blocks:Block xmi:id="_c0BCMEV2EeqjuaiO32zvig" base_Class="_cz9-4EV2EeqjuaiO32zvig"/>
   <Blocks:Block xmi:id="_gKxioEV2EeqjuaiO32zvig" base_Class="_gKt4QEV2EeqjuaiO32zvig"/>
+  <Requirements:Requirement xmi:id="_SSACsEV7EeqjuaiO32zvig" base_Class="_SR8YUEV7EeqjuaiO32zvig" id="UN-1.4" text="The system shall provide an analog audio out jack."/>
 </xmi:XMI>
